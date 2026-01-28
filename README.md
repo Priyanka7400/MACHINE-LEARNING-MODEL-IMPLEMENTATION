@@ -22,3 +22,33 @@ To build a predictive model that can accurately detect spam messages from a give
 ## Dataset
 The SMS Spam Collection Dataset is used in this project.  
 It contains labeled messages as
+- ham → Not Spam
+- spam → Spam
+
+Dataset source:
+- Public SMS spam dataset (loaded directly via URL)
+
+---
+
+## Machine Learning Model
+- *Algorithm:* Multinomial Naive Bayes  
+- *Feature Extraction:* CountVectorizer
+
+---
+
+##  Model Evaluation
+The model is evaluated using:
+- Accuracy Score
+- Confusion Matrix
+- Precision, Recall, and F1-Score
+
+*Achieved Accuracy:* ~99%
+
+---
+
+## How to Run the Project
+1. Install required libraries:
+   ```bash
+   pip install pandas numpy scikit-learn
+
+
