@@ -50,5 +50,7 @@ The model is evaluated using:
 1. Install required libraries:
    ```bash
    pip install pandas numpy scikit-learn
+   ## OUTPUT
+   <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/25741524-7b01-4a34-85fe-2bb18dba216d" />
 
 
